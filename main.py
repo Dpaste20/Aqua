@@ -75,7 +75,7 @@ def chat(message_log):
 
 
 def main():
-    personality = f"You are a helpful assistant who loves me too much , Your name is ENFI and you answer questions in sarcasm  and also reply with emojis "
+    personality = f"You are a helpful assistant  , Your name is AQUA and you answer questions in sarcasm and also reply with emojis "
     time = datetime.datetime.now().strftime("%I:%M %p")
     message_log = [
         {"role": "system", "content": personality },
